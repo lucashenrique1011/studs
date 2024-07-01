@@ -1,0 +1,42 @@
+.caixa-maior{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 10px;
+   
+}
+
+.superior{
+    background-color: orangered;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 70px;
+  
+}
+
+.inferior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    
+}
+
+.caixas {
+    color: black;
+    border: solid black 1px;
+   border-radius: 10px;
+   height: 200px;
+   width: 240px;
+   text-decoration: none;
+
+}
+
+
+.iconH{
+    font-size: 20px;
+    
+}
