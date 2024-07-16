@@ -1,12 +1,26 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
-.topo{
-background-color: gray;
-border: solid 1px black;
+.topo {
+  background-color: gray;
+  border: solid 1px black;
 }
 
-        
-    
+aside {
+  border: red 1px solid;
+  height: 200px;
+  width: 150px;
+display: inline-block;
+}
+
+.local{
+  display: inline-block;
+  padding-top: 0px;
+  margin-right: 100px;
+  margin-left: 50px;
+  width: calc(100% - 305px);
+  border: solid black 1px;
+  position: absolute;
+}
