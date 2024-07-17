@@ -4,7 +4,7 @@ import './inicio.css'
 function Inicio() {
     return (
         <div>
-            <h1>inicio</h1>
+            <h1 className='titulo'>inicio</h1>
             
         </div>
     )

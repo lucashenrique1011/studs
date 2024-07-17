@@ -1,6 +1,10 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
   .link {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .link .dentro {
@@ -15,6 +19,7 @@
     color: azure;
 }
 
-.navegacao i{
-   
+.navegacao {
+   background-color: rgb(172, 172, 172);
+  
 }
