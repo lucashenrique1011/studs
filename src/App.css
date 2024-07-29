@@ -6,21 +6,26 @@
 .topo {
   background-color: gray;
   border: solid 1px black;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
 }
 
 aside {
-  border: red 1px solid;
   height: 200px;
-  width: 150px;
-display: inline-block;
+  width: 160px;
+  display: inline-block;
+  position: fixed;
 }
 
-.local{
+.local {
   display: inline-block;
-  padding-top: 0px;
+  margin-top: 102px;
   margin-right: 100px;
-  margin-left: 50px;
+  margin-left: 190px;
   width: calc(100% - 305px);
   border: solid black 1px;
   position: absolute;
+  z-index: 1;
+  
 }

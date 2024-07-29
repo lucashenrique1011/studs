@@ -21,5 +21,11 @@
 
 .navegacao {
    background-color: rgb(172, 172, 172);
-  
+   max-height: 621px;
+  margin-top: 101px;
+ 
+}
+
+.navegacao:hover{
+     overflow-y: scroll;
 }
